@@ -1,0 +1,33 @@
+* {
+	box-sizing: border-box;
+	font-size: 60px;
+	font-family: "Droid Sans", sans-serif;
+	font-weight: bold;
+	color: white;
+	margin-top: 2vh;
+	overflow: hidden;
+}
+
+body {
+	transition: background-color 1s linear;
+}
+
+#container {
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	height: 100vh;
+	width: 100%;
+	margin-left: 10px;
+}
+
+#setup {
+	color: rgba(254,255,255,0.70);
+}
+
+#punchline {
+}
+
+#id {
+	font-size: 25px;
+}
